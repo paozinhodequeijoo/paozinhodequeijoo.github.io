@@ -1,0 +1,190 @@
+* {
+  font-family: 'Lobster', cursive;
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background: #E5E5E5;
+}
+
+#modal {
+  background: #FF5E84;
+  position: flex;
+  padding: 5px;
+  height: 513px;
+  width: 780px;
+  margin: 115px auto;
+  display: flex;
+  justify-content: center;
+  transition: 400ms;
+  border-radius: 13px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#modal .content {
+  
+  color: #DCDCDC;
+}
+
+#modal .content h1 {
+  position: absolute;
+  left: 10.77%;
+  right: 10.64%;
+  top: 26.51%;
+  bottom: 50.1%;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+}
+
+#modal .content button {
+  background: #DCDCDC;
+  height: 46px;
+  width: 284px;
+  font-size: 18px;
+  margin-top: 329px;
+  border-radius: 13px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  
+
+  transition: 400ms;
+}
+
+
+#modal .content button:hover {
+  background: #000000;
+  color: #FF5E84;
+}
+
+/* Pagina Carta */
+
+#modal_carta {
+  background: #FCFCFC;
+  position: flex;
+  padding: 15px;
+  height: auto;
+  width: 780px;
+  margin: 115px auto;
+  display: flex;
+  justify-content: center;
+  transition: 400ms;
+  border-radius: 13px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.42);
+}
+
+#modal_carta .content_carta p {
+  font-size: 22px;
+}
+
+#modal_carta .content_carta h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #FF5E84;  
+  margin-top: 52px;
+}
+
+#modal_carta .content_carta button {
+  width: 102px;
+  height: 48px;
+  background-color: #FF5E84;
+  color: #DCDCDC;
+  font-size: 24px;
+  border-radius: 13px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 68px ;
+  margin-left: 193px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  
+  transition: 400ms;
+}
+
+#modal_carta .content_carta button:hover {
+  background-color: #DCDCDC;
+  color: #FF5E84;
+}
+
+#modal_carta .content_carta #nao {
+  transition: none;
+  cursor: default;
+}
+
+#modal_carta .content_carta #nao:hover {
+  opacity: 0;
+}
+
+/* Página Sim */
+
+#modal_sim {
+  background: #FF5E84;
+  position: flex;
+  padding: 5px;
+  height: 543px;
+  width: 780px;
+  margin: 115px auto;
+  display: flex;
+  justify-content: center;
+  transition: 400ms;
+  border-radius: 13px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#modal_sim .content_sim p {
+  text-align: center;
+  font-size: 24px;
+}
+
+#image {
+  position: flex;
+  display: flex;
+  width: 162px;
+  float: left;
+  margin-left: 147px;
+  margin-top: 10px;
+}
+
+#image img {
+  height: 190px;
+  width: 162px;
+  
+}
+
+#loading {
+  width: 382px;
+  height: 173px;
+  position: flex;
+  float: right;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 67px;
+}
+
+#loading img {
+  height: 72px; 
+  margin-left: 150px; 
+}
+
+#loading button {
+ background-color: #DCDCDC;
+ opacity: 70%;
+ height: 42px;
+ width: 233px;
+ font-size: 24px;
+ border-radius: 13px;
+ margin-left: 73px;
+ margin-top: 50px;
+}
+
+span {
+  
+  width: 250px;
+  display: flex;
+  text-align: left;
+  margin-top: 250px;
+  margin-left: 15px;
+}
